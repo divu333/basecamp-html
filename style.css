@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0E0E0E;
+}
+h2{
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.container {
+    max-width: 960px;
+    width: 96%;
+    margin: auto;
+}
+
+header{
+    background-color: #707070;
+    margin-bottom: 20px;
+    width: 50%;
+    margin: auto;
+
+    overflow: hidden;
+
+}
+
+.logo {
+    float: left;
+    margin-top: 10px;
+    overflow: hidden;
+    background-color: #707070;
+}
+nav{
+    float: right;
+    line-height: 70px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px 20px;
+    margin-left: 10px;
+    background: #707070;
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.content {
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.content h1{
+    color: #E9DE69;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 3em;
+}
+
+.shape-square {
+    background-color: white;
+    height: 18%;
+    overflow: hidden;
+    
+}
+
+
+.square {
+    height: 130px;
+    width: 150px;
+    background-color: #AAFED7;
+    border-radius: 20px;
+    float: left;
+    margin:15px 95px 0 75px ;
+    
+}
+
+.shape-rectangle {
+    background-color: white;
+    height: 20%;
+    overflow: hidden;
+    
+}
+
+.rectangle {
+    height: 150px;
+    width: 357px;
+    background-color:#FDC273;
+    float: left; 
+    margin-left: 80px;
+}
+
+.article {
+
+    background-color: white;
+    height: 15%;
+    overflow: hidden;
+    float: center;
+    width: 100%;
+}
+
+.article-p{
+    font-size: .5em;
+    float: left;
+    width: 300px;
+    margin-left: 125px;
+
+     
+}
+
+.footer {
+    background: #3A3A56;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+}
